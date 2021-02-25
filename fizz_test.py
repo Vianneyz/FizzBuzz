@@ -7,4 +7,4 @@ class FizzTest(unittest.TestCase):
 
         actual = FizzChecker.is_fizz(i % 3 == 0)
 
-        self.assert_
+        self.
