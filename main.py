@@ -1,11 +1,11 @@
-I = int(input("Entrez un chiffre :"))
+I = int(input("Alice : Entrez un chiffre : "))
 if I < 1:
-    print("Erreur : chiffre invalide")
+    print("Bob : Chiffre invalide")
 elif I % 3 == 0 and I % 5 == 0:
-    print("FizzBuzz")
+    print("Bob : FizzBuzz")
 elif I % 3 == 0:
-    print("Fizz")
+    print("Bob : Fizz")
 elif I % 5 == 0:
-     print("Buzz")
+     print("Bob : Buzz")
 else:
-    print(I)
+    print("Bob : ",I)
