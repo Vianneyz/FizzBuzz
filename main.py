@@ -1,5 +1,3 @@
-
-
 I = int(input("Alice : Entrez un chiffre : "))
 if I < 1:
     print("Bob : Chiffre invalide")
