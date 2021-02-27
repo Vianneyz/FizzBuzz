@@ -1,4 +1,4 @@
-def fizz_buzz(param): 
+def fizz_buzz(param):
     if isMultiple(param, 3):
         if isMultiple(param, 5):
             return "FizzBuzz"
