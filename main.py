@@ -1,4 +1,4 @@
-I = int(input("Alice : Entrez un chiffre : "))
+I = int(input("Alice, entrez un chiffre : "))
 if I < 1:
     print("Bob : Chiffre invalide")
 elif I % 3 == 0 and I % 5 == 0:
