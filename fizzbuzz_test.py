@@ -1,5 +1,6 @@
 import unittest
-import fizz_buzz from main
+from unittest.case import TestCase
+from main import fizz_buzz
 
 class FizzBuzzTest(unittest.TestCase):
     # def test_canCallFizzBuzz(self):
