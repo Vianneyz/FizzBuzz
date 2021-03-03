@@ -25,7 +25,10 @@ class FizzBuzzTest(unittest.TestCase):
         self.assertEqual(fizzbuzz(15), "FizzBuzz")
 
     def test_call_FizzBuzz_Returns_Error_When_Passed_0(self):
-        self.assertFalse(fizzbuzz(0), "Error")
+        self.assertTrue(fizzbuzz(0), "Error")
+
+    def test_call_FizzBuzz_Returns_Error_When_Passed_neg(self):
+        self.assertLess(fizzbuzz(0), "Error")
 
 if __name__ == "__main__":
     unittest.main()
