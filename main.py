@@ -1,12 +1,11 @@
-def fizz_buzz(param):
-    if isMultiple(param, 3):
-        if isMultiple(param, 5):
-            return "FizzBuzz"
+def fizzbuzz(number):
+    if number % 15 == 0 :
+        return "FizzBuzz"
+    elif number % 3 == 0 :
         return "Fizz"
-    elif isMultiple(param, 5):
+    elif number % 5 == 0 :
         return "Buzz"
-
-    return str(param)
-
-def isMultiple(param, mod):
-    return (param % mod) == 0
+    elif number <= 0 :
+        return "Error"
+    else :
+        return number
